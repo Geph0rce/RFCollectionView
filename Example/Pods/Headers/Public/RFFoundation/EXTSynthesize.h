@@ -1,0 +1,1 @@
+../../../RFFoundation/RFFoundation/Classes/Preprocessors/EXTSynthesize.h

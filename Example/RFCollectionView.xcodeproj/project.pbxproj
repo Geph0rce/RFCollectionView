@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		140CB0298B43CA4BC9352D30 /* Pods_RFCollectionView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232D3069FDB447FE5E20D8BB /* Pods_RFCollectionView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		85C84C3DCC5CE1844CDEAB8A /* libPods-RFCollectionView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6DCACB75EB426BA7B6C11A /* libPods-RFCollectionView_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B1F277E7ED7B73BB7F4DB3F4 /* Pods_RFCollectionView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB088CCA8B6E378F55EC657 /* Pods_RFCollectionView_Example.framework */; };
+		C6FFC3A28FD921B1F7DCFA69 /* libPods-RFCollectionView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB6012A781CC4163ED24BD1 /* libPods-RFCollectionView_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,10 @@
 
 /* Begin PBXFileReference section */
 		16D5F642A2200192EC299523 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		232D3069FDB447FE5E20D8BB /* Pods_RFCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB6012A781CC4163ED24BD1 /* libPods-RFCollectionView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFCollectionView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34700FD6EC5C99CAE6249EA3 /* Pods-RFCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFCollectionView_Tests/Pods-RFCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C9C5DB7A101CC27B78890CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40541AEDB88A7A20A673AAA2 /* RFCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RFCollectionView.podspec; path = ../RFCollectionView.podspec; sourceTree = "<group>"; };
-		5DB088CCA8B6E378F55EC657 /* Pods_RFCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RFCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +61,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6C6DCACB75EB426BA7B6C11A /* libPods-RFCollectionView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFCollectionView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F809D7067740A89EA28B532 /* Pods-RFCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFCollectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFCollectionView_Example/Pods-RFCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B1F277E7ED7B73BB7F4DB3F4 /* Pods_RFCollectionView_Example.framework in Frameworks */,
+				85C84C3DCC5CE1844CDEAB8A /* libPods-RFCollectionView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				140CB0298B43CA4BC9352D30 /* Pods_RFCollectionView_Tests.framework in Frameworks */,
+				C6FFC3A28FD921B1F7DCFA69 /* libPods-RFCollectionView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5DB088CCA8B6E378F55EC657 /* Pods_RFCollectionView_Example.framework */,
-				232D3069FDB447FE5E20D8BB /* Pods_RFCollectionView_Tests.framework */,
+				6C6DCACB75EB426BA7B6C11A /* libPods-RFCollectionView_Example.a */,
+				2AB6012A781CC4163ED24BD1 /* libPods-RFCollectionView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

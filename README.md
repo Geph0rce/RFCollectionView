@@ -22,7 +22,7 @@ pod 'RFCollectionView'
 
 ## Author
 
-Geph0rce, qianjie@58ganji.com
+Geph0rce, iGeph0rce@gmail.com
 
 ## License
 

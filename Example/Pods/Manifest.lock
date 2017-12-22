@@ -1,0 +1,26 @@
+PODS:
+  - Masonry (1.1.0)
+  - RFCollectionView (0.1.0)
+  - RFFoundation (0.1.1):
+    - RFFoundation/Categories (= 0.1.1)
+    - RFFoundation/Preprocessors (= 0.1.1)
+  - RFFoundation/Categories (0.1.1)
+  - RFFoundation/Preprocessors (0.1.1)
+
+DEPENDENCIES:
+  - Masonry
+  - RFCollectionView (from `../`)
+  - RFFoundation
+
+EXTERNAL SOURCES:
+  RFCollectionView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RFCollectionView: 2537a35d57c0785707bfad4d1b0edd976b15772a
+  RFFoundation: 9c10f17a70521341c0fae0e7cb65d9ed08ffb451
+
+PODFILE CHECKSUM: 3e6ef6d5e800dbe8fd60aac4baa46ac1a65d70a7
+
+COCOAPODS: 1.3.1

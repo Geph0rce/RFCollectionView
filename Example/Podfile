@@ -1,7 +1,14 @@
-use_frameworks!
+
+platform :ios, '8.0'
+
+source 'https://github.com/Geph0rce/specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 
 target 'RFCollectionView_Example' do
   pod 'RFCollectionView', :path => '../'
+  pod 'RFFoundation'
+  pod 'Masonry'
 
   target 'RFCollectionView_Tests' do
     inherit! :search_paths
