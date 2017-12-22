@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RFCollectionView_Example' do
+  pod 'RFCollectionView', :path => '../'
+
+  target 'RFCollectionView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
