@@ -7,6 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RFCollectionViewProvider : NSObject
+@interface RFCollectionViewProvider<Data, View> : NSObject
 
 @end

@@ -9,8 +9,13 @@
 
 @implementation RFCollectionDataProvider
 
-- (NSObject *)dataAtIndex:(NSUInteger)index {
-    return nil;
+- (id)dataAtIndex:(NSUInteger)index {
+    guard (index < self.data.count) else {
+        DLog(@"index (%@) is out of bounds of self.data (%@)", @(index), @(self.data.count));
+        return nil;
+    }
+    
+    return self.data[index];
 }
 
 - (NSUInteger)numberOfItems {

@@ -11,10 +11,9 @@
 
 typedef CGSize (^RFCollectionSizeProvider)(NSUInteger index, __kindof NSObject *data, CGSize collectionViewSize);
 
-@interface RFCollectionProvider : NSObject
+@interface RFCollectionProvider<Data, View> : NSObject
 
-@property (nonatomic, strong) RFCollectionDataProvider *dataProvider;
-@property (nonatomic, strong) RFCollectionViewProvider *viewProvider;
-
-
+@property (nonatomic, strong) RFCollectionDataProvider<Data> *dataProvider;
+@property (nonatomic, strong) RFCollectionViewProvider<Data, View> *viewProvider;
+@property (nonatomic, copy) RFCollectionSizeProvider sizeProvider;
 @end

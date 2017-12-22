@@ -7,11 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RFCollectionDataProvider : NSObject
+@interface RFCollectionDataProvider<Data>: NSObject
 
-@property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) NSArray<Data> *data;
 
-- (NSObject *)dataAtIndex:(NSUInteger)index;
+- (Data)dataAtIndex:(NSUInteger)index;
 
 - (NSUInteger)numberOfItems;
 

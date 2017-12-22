@@ -11,7 +11,7 @@
 
 - (void)didLayout {}
 
-- (void)layout {}
+- (void)layout:(CGSize)collectionViewSize dataProvider:(RFCollectionDataProvider *)dataProvider sizeProvider:(RFCollectionSizeProvider)sizeProvider {}
 
 - (CGRect)frameAtIndex:(NSUInteger)index {
     return CGRectZero;
