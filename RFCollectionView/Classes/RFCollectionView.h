@@ -7,11 +7,11 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^RFCollectionViewProvider)(__kindof UIView *view, id data, NSInteger index);
+typedef void (^RFCollectionViewUpdater)(__kindof UIView *view, id data, NSInteger index);
 
 @interface RFCollectionView : UIScrollView
 
-@property (nonatomic, copy) RFCollectionViewProvider viewProvider;
+@property (nonatomic, copy) RFCollectionViewUpdater viewUpdater;
 @property (nonatomic, strong) NSArray *data;
 
 - (void)reloadData;

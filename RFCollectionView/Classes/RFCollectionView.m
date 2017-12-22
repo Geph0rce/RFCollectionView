@@ -26,4 +26,12 @@
     
 }
 
+
+#pragma mark - Getters and Setters
+
+- (void)setData:(NSArray *)data {
+    
+}
+
+
 @end

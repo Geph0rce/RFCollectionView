@@ -13,4 +13,6 @@
 
 - (NSObject *)dataAtIndex:(NSUInteger)index;
 
+- (NSUInteger)numberOfItems;
+
 @end

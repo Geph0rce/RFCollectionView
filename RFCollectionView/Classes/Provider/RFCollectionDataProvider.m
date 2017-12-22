@@ -9,6 +9,12 @@
 
 @implementation RFCollectionDataProvider
 
+- (NSObject *)dataAtIndex:(NSUInteger)index {
+    return nil;
+}
 
+- (NSUInteger)numberOfItems {
+    return self.data.count;
+}
 
 @end

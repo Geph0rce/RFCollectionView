@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <RFCollectionView/RFCollectionProvider.h>
 
 @interface RFBaseLayout : NSObject
 
@@ -14,7 +15,7 @@
 
 - (void)didLayout;
 
-- (void)layout;
+- (void)layout:(RFCollectionDataProvider *)dataProvider sizeProvider:(RFCollectionSizeProvider)sizeProvider;
 
 - (CGRect)frameAtIndex:(NSUInteger)index;
 

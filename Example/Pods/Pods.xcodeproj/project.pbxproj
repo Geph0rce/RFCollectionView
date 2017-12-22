@@ -7,22 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A436C4A249F24E5B57C0526D6D3DDF /* RFCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0698425575022C9F0FF13A9A4DD864FD /* RFCollectionView.m */; };
 		01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DD26E7E192EFC76A2B0E649640ECF2 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F57DA93E6B7DDA762D433076D968C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		075F61C7E85C1650AAEAB81B4D6682FA /* RFCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3BF050FA5B7674F49B15F9D3DECFD3 /* RFCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11818C7FC9389AB54A968DE5A83FECA9 /* RFCollectionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB85299E31942F1201E4B6F8F456960 /* RFCollectionProvider.m */; };
 		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9535F334C58BF625476BFC0EDB08C415 /* MASViewAttribute.m */; };
-		160A46BE1FECD66200B9046E /* RFBaseLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 160A46BC1FECD66200B9046E /* RFBaseLayout.h */; };
-		160A46BF1FECD66200B9046E /* RFBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A46BD1FECD66200B9046E /* RFBaseLayout.m */; };
-		160A46C31FECEADE00B9046E /* RFRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 160A46C11FECEADE00B9046E /* RFRect.h */; };
-		160A46C41FECEADE00B9046E /* RFRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A46C21FECEADE00B9046E /* RFRect.m */; };
-		160A46C71FECFF1300B9046E /* RFFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 160A46C51FECFF1300B9046E /* RFFlowLayout.h */; };
-		160A46C81FECFF1300B9046E /* RFFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A46C61FECFF1300B9046E /* RFFlowLayout.m */; };
-		160A46CB1FED07DD00B9046E /* RFCollectionDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 160A46C91FED07DD00B9046E /* RFCollectionDataProvider.h */; };
-		160A46CC1FED07DD00B9046E /* RFCollectionDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A46CA1FED07DD00B9046E /* RFCollectionDataProvider.m */; };
-		160A46CF1FED07EC00B9046E /* RFCollectionViewProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 160A46CD1FED07EC00B9046E /* RFCollectionViewProvider.h */; };
-		160A46D01FED07EC00B9046E /* RFCollectionViewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A46CE1FED07EC00B9046E /* RFCollectionViewProvider.m */; };
-		160A46D31FED07FF00B9046E /* RFCollectionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 160A46D11FED07FF00B9046E /* RFCollectionProvider.h */; };
-		160A46D41FED07FF00B9046E /* RFCollectionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 160A46D21FED07FF00B9046E /* RFCollectionProvider.m */; };
+		13C8C49A3FE3C1A95C393D410ED961F2 /* RFRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B2758D354C19FFAF94F2027DC6A92 /* RFRect.m */; };
 		16C880DF60B5B12AAB7F4BC5307304FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		19F48E4CA2FD2DEC0ED318C9E2A3E6F0 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA66E0903063DA55DDAA29EBEFE719A /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B7386A771B122BFC5F5E272F8E4A12C /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 069755183021E526C1FC690355327FF2 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,32 +21,42 @@
 		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAB080F4BA10B8F8F5F42837C097911 /* MASViewConstraint.m */; };
 		3C51076577DF4C843FBFE0E95CABA7F3 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB6FBFB60EF4E2DB6A2E8616D9C4154 /* EXTScope.m */; };
 		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA49E207F9CF9CC6320AD82AF9594E8 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		433C3801A472FDF045BC9FFD56FDF966 /* RFCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F46663C89070B7C21FA0C44377F8E18B /* RFCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B09CFB64EFBA4C5A9A85C550289FA52 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3988AB38E2B494B26060CCF9E1E550 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA502D434605611A4E21E65B19C9069 /* RFCollectionViewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E07916994E47278B5F2EC91A21A2EB7 /* RFCollectionViewProvider.m */; };
 		4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E4212DC30136A9105B3F98ACB63B69 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A22F24D0D7ECA964762D5328CBABDA5 /* RFCollectionViewProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8BF32787C4E6206516510BDB9FC30F /* RFCollectionViewProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D6349F78AA3293BAF7931887A5AB476A /* MASCompositeConstraint.m */; };
 		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CF27E3E2AA9B2409BCB4EDD3405F710F /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FAA80DB512B7610693081804F5856 /* Masonry-dummy.m */; };
 		6AB895A993C753A8CB7E2EF97ABA626A /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA65F9D955E8DA37D74D2A66D38CCF7 /* EXTRuntimeExtensions.m */; };
+		77125F052F1AC764975BD6BE88EF0AD7 /* RFCollectionDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = DC589E245A57FA3C7765070546C64A2E /* RFCollectionDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BE2F7A751069EE4574495157BFA2FB /* NSArray+MASAdditions.m */; };
 		86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A87760DAFB86FC0E8CF0FB62809912D8 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD8163639B4DF9091E2AF4B9A8E45F /* MASConstraint.m */; };
+		89F657830D103CC96FBE6CE4D70EE0FB /* RFCollectionDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3DFB943D4B780389EA0F4D7E1784C /* RFCollectionDataProvider.m */; };
 		8A138F5E7493E70E6B6924599E251B2A /* NSArray+RFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 18916F72DA94DD2065F46BF0D5E0BD71 /* NSArray+RFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B007FDF1377E27550349E9C8219C55E /* RFCommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3BC51F72681B2FE0886EE1CC43DBF5 /* RFCommonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CAF981A3B81697A3B43578D55D5CE6C /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 488958B32236F19CF145F152CDA099D1 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC0F0785BF83E22D4F60D06916B5CAE /* Pods-RFCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFCC028D63089ED87D7B12B5F14033 /* Pods-RFCollectionView_Tests-dummy.m */; };
 		919F70AE85346C0B28BB98E4C562F45E /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5859F21FF6DA1CFA81EB10724781A737 /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92D6B0A6E1B869852D02C0876F2C2857 /* RFFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97871D234CB3B20B0A3788507F2BE7A5 /* RFFlowLayout.m */; };
 		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F68462963F078F3EB1ACA3E6779386 /* MASLayoutConstraint.m */; };
-		955C53BD3856799398D963F51C3E2661 /* RFCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C49F8F679EB3D93FA192B1AB43F4AC9 /* RFCollectionView.m */; };
 		983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFFE8BA4B3703CE80DED2DF7ECBDBE9 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A03E8740A612F6C453E8F69928AAD1 /* RFRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CECAF3F76B197D75155CA7FA2F02542 /* RFRect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4691460E31E93ACC9F996321B624FB38 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BDEF4278AB432872A49D60B53C656A /* RFCollectionProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 799BDF6F112D3B3D0AEADFD4C06ED2AF /* RFCollectionProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BAF3B6DB4A0BD04E7B096B98EC2A06C /* RFCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B988327BB90AF7F85C81A38958F6BFAB /* RFCollectionView-dummy.m */; };
 		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA19928B48AE22665449C758C354825 /* View+MASAdditions.m */; };
 		A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA540C15CEE509A8A37419DAC8E7F4D /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A727365D98E5A99B371FC267E0BFBF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A95D6E27DDC0C0DB6623F5D7BC7310 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B41971DFC2325D73C4F92A95D626369F /* NSData+RFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B9B0A2AB64BC800F8CDAB8F33F04BA /* NSData+RFFoundation.m */; };
 		B8273634720816A6F005EA4DA70B0E97 /* Pods-RFCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F330B00992E67F21B787C66B6873D134 /* Pods-RFCollectionView_Example-dummy.m */; };
+		BEB6F80056C5E59EBF9B90E4BAE2F554 /* RFBaseLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A86F4615F46E6FB61EA30C9DFAE88B77 /* RFBaseLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C66A20159E2A3FFFE5BDCD82947348C9 /* RFFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFE9C388D69FF89EC3863C6548661AB /* RFFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6D096615EE9FDC339F0CB762297EF0F /* NSData+RFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDD007EFF9ECA41AF8D6F30F5103D79 /* NSData+RFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C69D8BAEF81FAEC2856B64A5F102F0 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3C321F37ECDF6D9C8E653BDB703E0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
@@ -65,10 +65,10 @@
 		E05D90ACFB7E68FD16C781A0A85453FA /* RFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3670265C391F1F0D0406414D950E1DD1 /* RFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3900F152C5080B26710F44BF38028A /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA7D5F96B004A802EC19B48AA14BC7B /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E71E13A038D8E61FD55DC1740E9E39D5 /* RFBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6BC90C021CDD66B4D076951880DA12 /* RFBaseLayout.m */; };
 		EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CD30F0575F0073BFF51F9883B0EAD10E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		F352B042DAA032331F020CBE363A6DE3 /* RFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BB9FDC1C0EC7F01C2CD763B88F7483 /* RFFoundation-dummy.m */; };
-		F6300E9308A515895E23B39AA8F6BB6F /* RFCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A46BA7C5961E1D359522CC45F2B364BF /* RFCollectionView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,38 +99,27 @@
 		01B3E110E71766BAADA7D7131A9A8806 /* NSArray+RFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RFFoundation.m"; path = "RFFoundation/Classes/Categories/NSArray+RFFoundation.m"; sourceTree = "<group>"; };
 		029EC663A712EA151B84D125480F9B64 /* Pods-RFCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		069755183021E526C1FC690355327FF2 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = RFFoundation/Classes/Preprocessors/EXTScope.h; sourceTree = "<group>"; };
+		0698425575022C9F0FF13A9A4DD864FD /* RFCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFCollectionView.m; path = RFCollectionView/Classes/RFCollectionView.m; sourceTree = "<group>"; };
 		06BE2F7A751069EE4574495157BFA2FB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		0AA65F9D955E8DA37D74D2A66D38CCF7 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = RFFoundation/Classes/Preprocessors/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
 		0EAB080F4BA10B8F8F5F42837C097911 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		160A46BC1FECD66200B9046E /* RFBaseLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFBaseLayout.h; sourceTree = "<group>"; };
-		160A46BD1FECD66200B9046E /* RFBaseLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFBaseLayout.m; sourceTree = "<group>"; };
-		160A46C11FECEADE00B9046E /* RFRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFRect.h; sourceTree = "<group>"; };
-		160A46C21FECEADE00B9046E /* RFRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFRect.m; sourceTree = "<group>"; };
-		160A46C51FECFF1300B9046E /* RFFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFFlowLayout.h; sourceTree = "<group>"; };
-		160A46C61FECFF1300B9046E /* RFFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFFlowLayout.m; sourceTree = "<group>"; };
-		160A46C91FED07DD00B9046E /* RFCollectionDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFCollectionDataProvider.h; sourceTree = "<group>"; };
-		160A46CA1FED07DD00B9046E /* RFCollectionDataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFCollectionDataProvider.m; sourceTree = "<group>"; };
-		160A46CD1FED07EC00B9046E /* RFCollectionViewProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFCollectionViewProvider.h; sourceTree = "<group>"; };
-		160A46CE1FED07EC00B9046E /* RFCollectionViewProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFCollectionViewProvider.m; sourceTree = "<group>"; };
-		160A46D11FED07FF00B9046E /* RFCollectionProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFCollectionProvider.h; sourceTree = "<group>"; };
-		160A46D21FED07FF00B9046E /* RFCollectionProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFCollectionProvider.m; sourceTree = "<group>"; };
+		170B2758D354C19FFAF94F2027DC6A92 /* RFRect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RFRect.m; sourceTree = "<group>"; };
 		18916F72DA94DD2065F46BF0D5E0BD71 /* NSArray+RFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+RFFoundation.h"; path = "RFFoundation/Classes/Categories/NSArray+RFFoundation.h"; sourceTree = "<group>"; };
 		19BB9FDC1C0EC7F01C2CD763B88F7483 /* RFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFFoundation-dummy.m"; sourceTree = "<group>"; };
-		1B3BF050FA5B7674F49B15F9D3DECFD3 /* RFCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFCollectionView.h; path = RFCollectionView/Classes/RFCollectionView.h; sourceTree = "<group>"; };
 		2518C0AE7638C920E6EC5E448C17F86B /* Pods-RFCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RFCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B9FAA80DB512B7610693081804F5856 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		2BA49E207F9CF9CC6320AD82AF9594E8 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		2DDD8163639B4DF9091E2AF4B9A8E45F /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		32C69D8BAEF81FAEC2856B64A5F102F0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		3670265C391F1F0D0406414D950E1DD1 /* RFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFFoundation.h; path = RFFoundation/Classes/RFFoundation.h; sourceTree = "<group>"; };
+		3E07916994E47278B5F2EC91A21A2EB7 /* RFCollectionViewProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RFCollectionViewProvider.m; sourceTree = "<group>"; };
 		3FF4BF6054D1892AC60FE36E7655A98C /* Pods-RFCollectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFCollectionView_Tests-resources.sh"; sourceTree = "<group>"; };
 		41E0804873A042751B5C990502AD4762 /* libRFCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFCollectionView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4327BF109C196CC53261CE33D3A08879 /* RFCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFCollectionView-prefix.pch"; sourceTree = "<group>"; };
 		4329FFFC4FC494C48C0BB227255D8409 /* Pods-RFCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RFCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4691460E31E93ACC9F996321B624FB38 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		488958B32236F19CF145F152CDA099D1 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = RFFoundation/Classes/Preprocessors/metamacros.h; sourceTree = "<group>"; };
 		4A3BC51F72681B2FE0886EE1CC43DBF5 /* RFCommonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFCommonMacros.h; path = RFFoundation/Classes/Preprocessors/RFCommonMacros.h; sourceTree = "<group>"; };
-		4C49F8F679EB3D93FA192B1AB43F4AC9 /* RFCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RFCollectionView.m; path = RFCollectionView/Classes/RFCollectionView.m; sourceTree = "<group>"; };
+		4CECAF3F76B197D75155CA7FA2F02542 /* RFRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RFRect.h; sourceTree = "<group>"; };
 		4DA540C15CEE509A8A37419DAC8E7F4D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		56ED906ACDBD523E31DA7D2AB126BE2E /* libPods-RFCollectionView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFCollectionView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F68462963F078F3EB1ACA3E6779386 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
@@ -138,27 +127,34 @@
 		5B09CFB64EFBA4C5A9A85C550289FA52 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		5FC5A46F92ACDA809DCF0DF900DB97CA /* Pods-RFCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		65A95D6E27DDC0C0DB6623F5D7BC7310 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		6B8BF32787C4E6206516510BDB9FC30F /* RFCollectionViewProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RFCollectionViewProvider.h; sourceTree = "<group>"; };
 		7329CEE97D08446870D07AB318EAFDE2 /* Pods-RFCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		799BDF6F112D3B3D0AEADFD4C06ED2AF /* RFCollectionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RFCollectionProvider.h; sourceTree = "<group>"; };
 		7AA7D5F96B004A802EC19B48AA14BC7B /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		7AB6FBFB60EF4E2DB6A2E8616D9C4154 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = RFFoundation/Classes/Preprocessors/EXTScope.m; sourceTree = "<group>"; };
 		7B626E7D4D5FC0D4AE972F3AFB4972E0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		80CFCC028D63089ED87D7B12B5F14033 /* Pods-RFCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A6BC90C021CDD66B4D076951880DA12 /* RFBaseLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RFBaseLayout.m; sourceTree = "<group>"; };
 		8DDD007EFF9ECA41AF8D6F30F5103D79 /* NSData+RFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+RFFoundation.h"; path = "RFFoundation/Classes/Categories/NSData+RFFoundation.h"; sourceTree = "<group>"; };
 		913579D26C8F5A514F3DDC1BF5162454 /* Pods-RFCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		941F03D40589BEAE0DC12DA4D76970A1 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		9535F334C58BF625476BFC0EDB08C415 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		96E3DFB943D4B780389EA0F4D7E1784C /* RFCollectionDataProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RFCollectionDataProvider.m; sourceTree = "<group>"; };
+		97871D234CB3B20B0A3788507F2BE7A5 /* RFFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RFFlowLayout.m; sourceTree = "<group>"; };
 		9FA66E0903063DA55DDAA29EBEFE719A /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = RFFoundation/Classes/Preprocessors/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
 		A2E637BEC848334D91E48E30FCAFE323 /* RFFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFFoundation.xcconfig; sourceTree = "<group>"; };
-		A46BA7C5961E1D359522CC45F2B364BF /* RFCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFCollectionView-dummy.m"; sourceTree = "<group>"; };
+		A86F4615F46E6FB61EA30C9DFAE88B77 /* RFBaseLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RFBaseLayout.h; sourceTree = "<group>"; };
 		A87760DAFB86FC0E8CF0FB62809912D8 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		ADAC8786D201BB52650C21924F4DC2FB /* RFCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFCollectionView.xcconfig; sourceTree = "<group>"; };
 		AE0F894063D38B08919C0399709C322F /* libPods-RFCollectionView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFCollectionView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1296D2B59FE2CF76EBBD5983B5A119 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		AE93F1C15A4C7B4BBEFE5FFB82B6B010 /* RFCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RFCollectionView.xcconfig; sourceTree = "<group>"; };
 		B3333A65FCA69C5D778183A5D192CD0C /* RFFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFFoundation-prefix.pch"; sourceTree = "<group>"; };
 		B3BBE45F5C7940600C9BBAC8143A584F /* Pods-RFCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B988327BB90AF7F85C81A38958F6BFAB /* RFCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RFCollectionView-dummy.m"; sourceTree = "<group>"; };
 		B9E4212DC30136A9105B3F98ACB63B69 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BAFE9C388D69FF89EC3863C6548661AB /* RFFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RFFlowLayout.h; sourceTree = "<group>"; };
 		C1DD26E7E192EFC76A2B0E649640ECF2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		C5B9B0A2AB64BC800F8CDAB8F33F04BA /* NSData+RFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+RFFoundation.m"; path = "RFFoundation/Classes/Categories/NSData+RFFoundation.m"; sourceTree = "<group>"; };
 		C7289EDB70A262F87DC84AF9F25D274B /* libRFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRFFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,13 +165,17 @@
 		D5F5907F6F37FB604FEBB00CF04BD7BA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6349F78AA3293BAF7931887A5AB476A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA58848A221ABA440817D2B92D1ED0C8 /* RFCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RFCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		DC589E245A57FA3C7765070546C64A2E /* RFCollectionDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RFCollectionDataProvider.h; sourceTree = "<group>"; };
 		DE3900F152C5080B26710F44BF38028A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		E0D07C7013C4369331D85786A5200F06 /* Pods-RFCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RFCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E4047510EBC48A829E03EB5F6FA4AB0E /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		E536E18AFC9F13B8587E76D8CB2A02DC /* Pods-RFCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RFCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAA2BF4F04AE9D24921FD8F799A6F516 /* Pods-RFCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RFCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAB85299E31942F1201E4B6F8F456960 /* RFCollectionProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RFCollectionProvider.m; sourceTree = "<group>"; };
 		EE0246F9B18BCBF6D1222772677B4CAC /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		F330B00992E67F21B787C66B6873D134 /* Pods-RFCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RFCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
+		F46663C89070B7C21FA0C44377F8E18B /* RFCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFCollectionView.h; path = RFCollectionView/Classes/RFCollectionView.h; sourceTree = "<group>"; };
 		F86194EFDF51B2B2163682EBA094FEFC /* Pods-RFCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RFCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FDFFE8BA4B3703CE80DED2DF7ECBDBE9 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,20 +225,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04798189EEA01A751BD73E80CCF977CC /* RFCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				1B3BF050FA5B7674F49B15F9D3DECFD3 /* RFCollectionView.h */,
-				4C49F8F679EB3D93FA192B1AB43F4AC9 /* RFCollectionView.m */,
-				160A46B61FECD16500B9046E /* Provider */,
-				160A46BB1FECD65000B9046E /* Layout */,
-				160A46C01FECEAD400B9046E /* Utils */,
-				962C21A0D7A03A6A8D5183F71030EF2D /* Support Files */,
-			);
-			name = RFCollectionView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		05D8E71F157F37C5B095291321AD1B4B /* Preprocessors */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,42 +248,6 @@
 				C5B9B0A2AB64BC800F8CDAB8F33F04BA /* NSData+RFFoundation.m */,
 			);
 			name = Categories;
-			sourceTree = "<group>";
-		};
-		160A46B61FECD16500B9046E /* Provider */ = {
-			isa = PBXGroup;
-			children = (
-				160A46D11FED07FF00B9046E /* RFCollectionProvider.h */,
-				160A46D21FED07FF00B9046E /* RFCollectionProvider.m */,
-				160A46C91FED07DD00B9046E /* RFCollectionDataProvider.h */,
-				160A46CA1FED07DD00B9046E /* RFCollectionDataProvider.m */,
-				160A46CD1FED07EC00B9046E /* RFCollectionViewProvider.h */,
-				160A46CE1FED07EC00B9046E /* RFCollectionViewProvider.m */,
-			);
-			name = Provider;
-			path = RFCollectionView/Classes/Provider;
-			sourceTree = "<group>";
-		};
-		160A46BB1FECD65000B9046E /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				160A46BC1FECD66200B9046E /* RFBaseLayout.h */,
-				160A46BD1FECD66200B9046E /* RFBaseLayout.m */,
-				160A46C51FECFF1300B9046E /* RFFlowLayout.h */,
-				160A46C61FECFF1300B9046E /* RFFlowLayout.m */,
-			);
-			name = Layout;
-			path = RFCollectionView/Classes/Layout;
-			sourceTree = "<group>";
-		};
-		160A46C01FECEAD400B9046E /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				160A46C11FECEADE00B9046E /* RFRect.h */,
-				160A46C21FECEADE00B9046E /* RFRect.m */,
-			);
-			name = Utils;
-			path = RFCollectionView/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -326,6 +276,38 @@
 				76A56AE3B137B2DEA720534A2E1E892E /* Support Files */,
 			);
 			path = RFFoundation;
+			sourceTree = "<group>";
+		};
+		5A8AE427292A121C7EE189FC607924CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67FCD194CF9D8D6404B80D47F1DFC4CB /* RFCollectionView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		650CB827FE52E501160121727563FDB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4CECAF3F76B197D75155CA7FA2F02542 /* RFRect.h */,
+				170B2758D354C19FFAF94F2027DC6A92 /* RFRect.m */,
+			);
+			name = Utils;
+			path = RFCollectionView/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		67FCD194CF9D8D6404B80D47F1DFC4CB /* RFCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F46663C89070B7C21FA0C44377F8E18B /* RFCollectionView.h */,
+				0698425575022C9F0FF13A9A4DD864FD /* RFCollectionView.m */,
+				B811F6774FFA200E1A46B025C8C6B9C6 /* Layout */,
+				9782A5C6266236BA59093D334A4A5AC9 /* Provider */,
+				F402684B02644C6E8FBEEE59D6E41412 /* Support Files */,
+				650CB827FE52E501160121727563FDB8 /* Utils */,
+			);
+			name = RFCollectionView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6A9CB80BC9804677EDC494D8F36D0A2D /* Masonry */ = {
@@ -385,7 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B6AF833B36C04090DAF22E6FDF93DAD8 /* Development Pods */,
+				5A8AE427292A121C7EE189FC607924CF /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				A8D98FA9995F150986026A32F84CA52F /* Pods */,
 				933FE6320C50FC5824098C9854F36724 /* Products */,
@@ -420,15 +402,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		962C21A0D7A03A6A8D5183F71030EF2D /* Support Files */ = {
+		9782A5C6266236BA59093D334A4A5AC9 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
-				ADAC8786D201BB52650C21924F4DC2FB /* RFCollectionView.xcconfig */,
-				A46BA7C5961E1D359522CC45F2B364BF /* RFCollectionView-dummy.m */,
-				4327BF109C196CC53261CE33D3A08879 /* RFCollectionView-prefix.pch */,
+				799BDF6F112D3B3D0AEADFD4C06ED2AF /* RFCollectionProvider.h */,
+				EAB85299E31942F1201E4B6F8F456960 /* RFCollectionProvider.m */,
+				DC589E245A57FA3C7765070546C64A2E /* RFCollectionDataProvider.h */,
+				96E3DFB943D4B780389EA0F4D7E1784C /* RFCollectionDataProvider.m */,
+				6B8BF32787C4E6206516510BDB9FC30F /* RFCollectionViewProvider.h */,
+				3E07916994E47278B5F2EC91A21A2EB7 /* RFCollectionViewProvider.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RFCollectionView";
+			name = Provider;
+			path = RFCollectionView/Classes/Provider;
 			sourceTree = "<group>";
 		};
 		A8D98FA9995F150986026A32F84CA52F /* Pods */ = {
@@ -440,12 +425,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B6AF833B36C04090DAF22E6FDF93DAD8 /* Development Pods */ = {
+		B811F6774FFA200E1A46B025C8C6B9C6 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
-				04798189EEA01A751BD73E80CCF977CC /* RFCollectionView */,
+				A86F4615F46E6FB61EA30C9DFAE88B77 /* RFBaseLayout.h */,
+				8A6BC90C021CDD66B4D076951880DA12 /* RFBaseLayout.m */,
+				BAFE9C388D69FF89EC3863C6548661AB /* RFFlowLayout.h */,
+				97871D234CB3B20B0A3788507F2BE7A5 /* RFFlowLayout.m */,
 			);
-			name = "Development Pods";
+			name = Layout;
+			path = RFCollectionView/Classes/Layout;
 			sourceTree = "<group>";
 		};
 		BE32CF1A40FA782DADD1DE589415AD18 /* Support Files */ = {
@@ -474,6 +463,17 @@
 			path = "Target Support Files/Pods-RFCollectionView_Tests";
 			sourceTree = "<group>";
 		};
+		F402684B02644C6E8FBEEE59D6E41412 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE93F1C15A4C7B4BBEFE5FFB82B6B010 /* RFCollectionView.xcconfig */,
+				B988327BB90AF7F85C81A38958F6BFAB /* RFCollectionView-dummy.m */,
+				DA58848A221ABA440817D2B92D1ED0C8 /* RFCollectionView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RFCollectionView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -482,14 +482,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */,
-				160A46CB1FED07DD00B9046E /* RFCollectionDataProvider.h in Headers */,
 				4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */,
 				6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */,
 				EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */,
-				160A46D31FED07FF00B9046E /* RFCollectionProvider.h in Headers */,
-				160A46C71FECFF1300B9046E /* RFFlowLayout.h in Headers */,
 				A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */,
-				160A46BE1FECD66200B9046E /* RFBaseLayout.h in Headers */,
 				49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */,
 				1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */,
 				E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */,
@@ -500,16 +496,20 @@
 				86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */,
 				983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */,
 				C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */,
-				160A46CF1FED07EC00B9046E /* RFCollectionViewProvider.h in Headers */,
-				160A46C31FECEADE00B9046E /* RFRect.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F03F8CA8346ED5B9AC493F5FCAE9AAFF /* Headers */ = {
+		C1041CE701F48B625E875904599F1496 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075F61C7E85C1650AAEAB81B4D6682FA /* RFCollectionView.h in Headers */,
+				BEB6F80056C5E59EBF9B90E4BAE2F554 /* RFBaseLayout.h in Headers */,
+				77125F052F1AC764975BD6BE88EF0AD7 /* RFCollectionDataProvider.h in Headers */,
+				99BDEF4278AB432872A49D60B53C656A /* RFCollectionProvider.h in Headers */,
+				433C3801A472FDF045BC9FFD56FDF966 /* RFCollectionView.h in Headers */,
+				5A22F24D0D7ECA964762D5328CBABDA5 /* RFCollectionViewProvider.h in Headers */,
+				C66A20159E2A3FFFE5BDCD82947348C9 /* RFFlowLayout.h in Headers */,
+				98A03E8740A612F6C453E8F69928AAD1 /* RFRect.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,9 +604,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71F9022D3F590D7F046DA678D1F20076 /* Build configuration list for PBXNativeTarget "RFCollectionView" */;
 			buildPhases = (
-				ABF463388630F29D44F7994DDBC055CE /* Sources */,
+				BF5794D99DEA17BD98737573C838A2E1 /* Sources */,
 				815C39E337B9853B501FBF4E03254A39 /* Frameworks */,
-				F03F8CA8346ED5B9AC493F5FCAE9AAFF /* Headers */,
+				C1041CE701F48B625E875904599F1496 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -668,20 +668,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABF463388630F29D44F7994DDBC055CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6300E9308A515895E23B39AA8F6BB6F /* RFCollectionView-dummy.m in Sources */,
-				955C53BD3856799398D963F51C3E2661 /* RFCollectionView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B17D9067EFA9EBC0C74565AF1F34B50C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B8273634720816A6F005EA4DA70B0E97 /* Pods-RFCollectionView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5794D99DEA17BD98737573C838A2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71E13A038D8E61FD55DC1740E9E39D5 /* RFBaseLayout.m in Sources */,
+				89F657830D103CC96FBE6CE4D70EE0FB /* RFCollectionDataProvider.m in Sources */,
+				11818C7FC9389AB54A968DE5A83FECA9 /* RFCollectionProvider.m in Sources */,
+				9BAF3B6DB4A0BD04E7B096B98EC2A06C /* RFCollectionView-dummy.m in Sources */,
+				00A436C4A249F24E5B57C0526D6D3DDF /* RFCollectionView.m in Sources */,
+				4CA502D434605611A4E21E65B19C9069 /* RFCollectionViewProvider.m in Sources */,
+				92D6B0A6E1B869852D02C0876F2C2857 /* RFFlowLayout.m in Sources */,
+				13C8C49A3FE3C1A95C393D410ED961F2 /* RFRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,21 +697,15 @@
 			files = (
 				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
 				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
-				160A46CC1FED07DD00B9046E /* RFCollectionDataProvider.m in Sources */,
-				160A46BF1FECD66200B9046E /* RFBaseLayout.m in Sources */,
 				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
-				160A46D41FED07FF00B9046E /* RFCollectionProvider.m in Sources */,
 				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
 				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
 				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
-				160A46C81FECFF1300B9046E /* RFFlowLayout.m in Sources */,
 				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
 				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
 				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
 				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
-				160A46C41FECEADE00B9046E /* RFRect.m in Sources */,
-				160A46D01FED07EC00B9046E /* RFCollectionViewProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,7 +756,7 @@
 		};
 		3FDEFA49AE27B8DE9BE0A07C483E320B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADAC8786D201BB52650C21924F4DC2FB /* RFCollectionView.xcconfig */;
+			baseConfigurationReference = AE93F1C15A4C7B4BBEFE5FFB82B6B010 /* RFCollectionView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1039,7 +1039,7 @@
 		};
 		F8A0EC09B3BB08F31C25E93EEAE8C6A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADAC8786D201BB52650C21924F4DC2FB /* RFCollectionView.xcconfig */;
+			baseConfigurationReference = AE93F1C15A4C7B4BBEFE5FFB82B6B010 /* RFCollectionView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

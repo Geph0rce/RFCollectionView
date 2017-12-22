@@ -1,8 +1,8 @@
 {
   "name": "RFCollectionView",
   "version": "0.1.0",
-  "summary": "A short description of RFCollectionView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "RFCollectionView",
+  "description": "inspired by CollectionKit",
   "homepage": "https://github.com/Geph0rce/RFCollectionView",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RFCollectionView/Classes/**/*"
+  "source_files": "RFCollectionView/Classes/**/*",
+  "public_header_files": "RFCollectionView/Classes/**/*.h"
 }

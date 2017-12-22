@@ -9,8 +9,7 @@
 
 @implementation RFFlowLayout
 
-- (void)layout {
+- (void)layout:(RFCollectionDataProvider *)dataProvider sizeProvider:(RFCollectionSizeProvider)sizeProvider {
     
 }
-
 @end
